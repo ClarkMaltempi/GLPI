@@ -34,3 +34,9 @@ Sempre comece garantindo que todos os pacotes do sistema estão atualizados.
 
 ```bash
 sudo apt update && sudo apt upgrade -y
+```
+
+### Passo 2: Instalação do Banco de Dados (MariaDB)
+O GLPI precisa de um banco de dados para armazenar suas informações. MariaDB é um substituto de código aberto para o MySQL e é totalmente compatível.
+
+* 1.Instale o MariaDB:
