@@ -4,7 +4,7 @@ Este documento fornece um passo a passo detalhado para instalar e configurar o s
 
 ## Índice Navegável
 
-* [Pré-requisitos](#pre-requisitos)
+* [Pré-requisitos](###pre-requisitos)
 * [Passo 1: Atualização do Sistema](#passo-1-atualizacao-do-sistema)
 * [Passo 2: Instalação do Banco de Dados (MariaDB)](#passo-2-instalacao-do-banco-de-dados-mariadb)
 * [Passo 3: Instalação do PHP e Extensões Necessárias](#passo-3-instalacao-do-php-e-extensoes-necessarias)
