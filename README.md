@@ -4,23 +4,23 @@ Este documento fornece um passo a passo detalhado para instalar e configurar o s
 
 ## Índice Navegável
 
-* [Pré-requisitos](#pre-requisitos)
-* [Passo 1: Atualização do Sistema](#passo-1-atualizacao-do-sistema)
-* [Passo 2: Instalação do Banco de Dados (MariaDB)](#passo-2-instalacao-do-banco-de-dados-mariadb)
-* [Passo 3: Instalação do PHP e Extensões Necessárias](#passo-3-instalacao-do-php-e-extensoes-necessarias)
-* **[SEÇÃO A: Configuração com Servidor Web Apache](#secao-a-configuracao-com-servidor-web-apache)**
-    * [Passo 4A: Instalação do Apache](#passo-4a-instalacao-do-apache)
-    * [Passo 5A: Download e Preparação do GLPI](#passo-5a-download-e-preparacao-do-glpi)
-    * [Passo 6A: Configuração do Virtual Host do Apache](#passo-6a-configuracao-do-virtual-host-do-apache)
-    * [Passo 7A: Configuração de Permissões (Apache)](#passo-7a-configuracao-de-permissoes-apache)
-* **[SEÇÃO B: Configuração com Servidor Web Nginx](#secao-b-configuracao-com-servidor-web-nginx)**
-    * [Passo 4B: Instalação do Nginx](#passo-4b-instalacao-do-nginx)
-    * [Passo 5B: Download e Preparação do GLPI](#passo-5b-download-e-preparacao-do-glpi)
-    * [Passo 6B: Configuração do Server Block do Nginx](#passo-6b-configuracao-do-server-block-do-nginx)
-    * [Passo 7B: Configuração de Permissões (Nginx)](#passo-7b-configuracao-de-permissoes-nginx)
-* [Passo 8: Instalação do GLPI via Interface Web](#passo-8-instalacao-do-glpi-via-interface-web)
-* [Passo 9: Tarefas Críticas Pós-Instalação](#passo-9-tarefas-criticas-pos-instalacao)
-* [Conclusão](#conclusao)
+* [Pré-requisitos](#pré-requisitos)
+* [Passo 1: Atualização do Sistema](#passo-1-atualização-do-sistema)
+* [Passo 2: Instalação do Banco de Dados (MariaDB)](#passo-2-instalação-do-banco-de-dados-mariadb)
+* [Passo 3: Instalação do PHP e Extensões Necessárias](#passo-3-instalação-do-php-e-extensões-necessárias)
+* [SEÇÃO A: Configuração com Servidor Web Apache](#seção-a-configuração-com-servidor-web-apache)
+    * [Passo 4A: Instalação do Apache](#passo-4a-instalação-do-apache)
+    * [Passo 5A: Download e Preparação do GLPI](#passo-5a-download-e-preparação-do-glpi)
+    * [Passo 6A: Configuração do Virtual Host do Apache](#passo-6a-configuração-do-virtual-host-do-apache)
+    * [Passo 7A: Configuração de Permissões (Apache)](#passo-7a-configuração-de-permissões-apache)
+* [SEÇÃO B: Configuração com Servidor Web Nginx](#seção-b-configuração-com-servidor-web-nginx)
+    * [Passo 4B: Instalação do Nginx](#passo-4b-instalação-do-nginx)
+    * [Passo 5B: Download e Preparação do GLPI](#passo-5b-download-e-preparação-do-glpi-1)
+    * [Passo 6B: Configuração do Server Block do Nginx](#passo-6b-configuração-do-server-block-do-nginx)
+    * [Passo 7B: Configuração de Permissões (Nginx)](#passo-7b-configuração-de-permissões-nginx)
+* [Passo 8: Instalação do GLPI via Interface Web](#passo-8-instalação-do-glpi-via-interface-web)
+* [Passo 9: Tarefas Críticas Pós-Instalação](#passo-9-tarefas-críticas-pós-instalação)
+* [Conclusão](#conclusão)
 
 ---
 
@@ -161,7 +161,7 @@ O Apache precisa ter permissão para escrever nos diretórios do GLPI.
 sudo chown -R www-data:www-data /var/www/html/glpi/
 sudo chmod -R 755 /var/www/html/glpi/
 ```
-**Pule a Seção B e vá direto para o [Passo 8](#passo-8-instalacao-do-glpi-via-interface-web).**
+**Pule a Seção B e vá direto para o [Passo 8](#passo-8-instalação-do-glpi-via-interface-web).**
 
 ---
 
